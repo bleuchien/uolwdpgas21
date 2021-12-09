@@ -1,0 +1,44 @@
+.textBox {
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+  margin-right: 15%;
+  width: 423px;
+}
+
+.textBox div {
+  margin: 10px;
+}
+
+.textBox div p {
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.textBox div div p i{
+  font-family:'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.textBox div div h1 {
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  height: 100%;
+}
+
+.quote {
+  padding-left: 10px;
+  margin-top: 0px;
+  padding-top: 0px;
+}

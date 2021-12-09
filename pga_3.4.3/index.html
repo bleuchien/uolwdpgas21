@@ -6,29 +6,84 @@
   <meta name="description" content="virtual reality, theme park, shooter, escape room, haunted house, FPS, VR">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
   <!-- full screen video -->
-  <video autoplay loop playsinline muted>
+  <!-- <img src="images/bg-img-2.jpg" class="bgImg"> -->
+  <img src="images/home-bg.png" class="bgImg">
+
+  <!-- <video autoplay loop playsinline muted>
     <source src="videos/vrintro.mp4" type="video/mp4">
-  </video>
+  </video> -->
 
   <header>
-    <div class="logo">
-    </div>
     <nav>
+      <!-- Logo -->
+      <div class="logo">
+        <img src="./images/logo-v5.png" width="155px" height="63px" style="cursor: pointer;"/>
+      </div>
       <!-- main navigation -->
-      <ul>
+      <ul class="navList">
         <li>Home</li>
-        <li>Attractions</li>
-        <li>Reservations<li>
+        <li>Activities</li>
+        <li>Packages</li>
       </ul>
+      <!-- Basket Button -->
+      <div class="basketButton">
+        <img src="images/bag-fff.svg" class="basketImg"/>
+      </div>
     </nav>
+
   </header>
 
   <main>
     <!-- main content -->
-    <h1>VR Theme Park</h1>
+    <section class="textBox">
+      <div style="padding-left: 15px; padding-right: 15px;">
+        <div style="display: flex; flex-direction: row; justify-content: space-between; margin: 0px;">
+          <h1><span style="border-bottom: 1px solid red;">Red pill</span> or <span style="border-bottom: 1px solid blue;">blue pill</span>?</h1>
+          <div style="width: 15%; display: flex; justify-content: center; align-items: center;">
+            <img src="images/pill.svg" width="100px"/>
+          </div>
+        </div>
+        <div class="quote">
+          <p style="margin: 0px"><i>"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." - Lucky Palmer</i></p>
+        </div>
+        <p>Step into the rabbit hole. Experience an alternate universe. Question what is real at <b>VR Park.</b></p>
+        <div style="display: flex; flex-direction: row; margin: 0px;">
+          <div style="margin-right: 10px; margin-left: 0px;">
+            <img src="images/360.svg" width="30px"/>
+          </div>
+          <p style="font-size: 1em; font-family: Arial, Helvetica, sans-serif; color: #fff;">Get the full immersive 360° experience</p>
+        </div>
+        <div style="display: flex; flex-direction: row; margin: 0px;">
+          <div style="margin-right: 10px; margin-left: 0px;">
+            <img src="images/env.svg" width="30px"/>
+          </div>
+          <p style="font-size: 1em; font-family: Arial, Helvetica, sans-serif; color: #fff;">Explore our out-of-this-world environments</p>
+        </div>
+        <div style="display: flex; flex-direction: row; margin: 0px;">
+          <div style="margin-right: 10px; margin-left: 0px;">
+            <img src="images/interact.svg" width="30px"/>
+          </div>
+          <p style="font-size: 1em; font-family: Arial, Helvetica, sans-serif; color: #fff;">Interact and become a part of the story.</p>
+        </div>
+        <div style="display: flex; flex-direction: row; margin: 0px;">
+          <div style="margin-right: 10px; margin-left: 0px;">
+            <img src="images/pvp.svg" width="30px"/>
+          </div>
+          <p style="font-size: 1em; font-family: Arial, Helvetica, sans-serif; color: #fff;">Play with or against other players.</p>
+        </div>
+        <div style="display: flex; flex-direction: row; margin: 0px;">
+          <div style="margin-right: 10px; margin-left: 0px;">
+            <img src="images/medal.svg" width="30px"/>
+          </div>
+          <p style="font-size: 1em; font-family: Arial, Helvetica, sans-serif; color: #fff;">Compete in our weekly tournaments.</p>
+        </div>
+        
+      </div>
+    </section>
   </main>
 
   <footer>
