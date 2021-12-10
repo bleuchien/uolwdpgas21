@@ -11,15 +11,11 @@
   margin: 10px;
 }
 
-.textBox div p {
+.quoteText {
   font-size: 1.3em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-
-.textBox div div p i{
   font-family:'Times New Roman', Times, serif;
   color: #fff;
+  margin: 0px;
 }
 
 .textBox div div h1 {
@@ -41,4 +37,68 @@ main {
   padding-left: 10px;
   margin-top: 0px;
   padding-top: 0px;
+}
+
+.featureText {
+  font-size: 1em; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #fff;
+  cursor: pointer;
+}
+
+.featureText:hover {
+  font-size: 1em; 
+  font-family: Arial, Helvetica, sans-serif; 
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255,255,255,0.7)
+}
+
+.bodyText {
+  font-size: 1.3em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Pill Styling */
+.pillImg {
+  width: 15%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+
+/* Pill Animation */
+.pillImg:hover {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 600ms;
+  -webkit-animation-duration: 600ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
 }
