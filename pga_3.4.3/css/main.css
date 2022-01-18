@@ -72,6 +72,12 @@ header {
   cursor: pointer;
   color: #fff;
 }
+
+.navList li a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .navList li::after {
   content: '';
   display: flex;
@@ -101,4 +107,31 @@ header {
 .basketImg:hover {
   cursor: pointer;
   width: 33px;
+}
+
+.mapBox {
+  width: 60%;
+  margin: 3em auto auto auto;
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+
+  ont-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  cursor: pointer;
+}
+
+.mapBox img {
+  margin: 2.5%;
+  width: 95%;
+}
+
+.mapBox p {
+  margin: 2.5%;
+}
+
+.mapBox ul {
+  padding-bottom: 2em;
 }
