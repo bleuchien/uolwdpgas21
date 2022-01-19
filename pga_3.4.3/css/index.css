@@ -1,6 +1,7 @@
 body {
   background-image: url('../images/home-bg.png');
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }

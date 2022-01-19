@@ -1,6 +1,7 @@
 body {
   background-image: url('../images/activities-bg.jpg');
   background-position: center;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
 }
