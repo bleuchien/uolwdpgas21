@@ -1,3 +1,10 @@
+body {
+  background-image: url('../images/home-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .textBox {
   width: 423px;
 }
