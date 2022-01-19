@@ -188,3 +188,11 @@ header {
 .textBox div.blockhead {
   justify-content: space-between;
 }
+
+.symbol {
+  width: 30px;
+}
+
+.pill {
+  width: 100px;
+}
