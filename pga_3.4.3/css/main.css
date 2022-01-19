@@ -149,3 +149,35 @@ header {
 .ULblue {
   border-bottom: 1px solid blue;
 }
+
+.redish {
+  color: red;
+}
+
+.greenish {
+  color: #3ddc84;
+}
+
+.blueish {
+  color: blue;
+}
+
+.textBox div.base {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.textBox div.block {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.textBox div.icon {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.textBox div.blockhead {
+  justify-content: space-between;
+}
