@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="index.css">
+
 </head>
 <body>
   <!-- full screen video -->
@@ -25,9 +26,9 @@
       </div>
       <!-- main navigation -->
       <ul class="navList">
-        <li>Home</li>
-        <li>Activities</li>
-        <li>Packages</li>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./activities.html">Activities</a></li>
+        <li><a href="./packages.html">Packages</a></li>
       </ul>
       <!-- Basket Button -->
       <div class="basketButton">
@@ -39,49 +40,53 @@
 
   <main>
     <!-- main content -->
-    <section class="textBox">
-      <div style="padding-left: 15px; padding-right: 15px;">
-        <div style="display: flex; flex-direction: row; justify-content: space-between; margin: 0px;">
-          <h1><span style="border-bottom: 1px solid red;">Red pill</span> or <span style="border-bottom: 1px solid blue;">blue pill</span>?</h1>
-          <div class="pillImg">
-            <img src="images/pill.svg" width="100px"/>
+    <section class="pageContainer">
+      <div class="textBox">
+        <div style="padding-left: 15px; padding-right: 15px;">
+          <div style="display: flex; flex-direction: row; justify-content: space-between; margin: 0px;">
+            <h1><span style="border-bottom: 1px solid red;">Red pill</span> or <span style="border-bottom: 1px solid blue;">blue pill</span>?</h1>
+            <div class="pillImg">
+              <a href="./activities.html">
+                <img src="images/pill.svg" width="100px"/>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="quote">
-          <p class="quoteText"><i>"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." - Lucky Palmer</i></p>
-        </div>
-        <p class="bodyText">Step into the rabbit hole. Experience an alternate universe. Question what is real at <b>VR Park.</b></p>
-        <div style="display: flex; flex-direction: row; margin: 0px;">
-          <div style="margin-right: 10px; margin-left: 0px;">
-            <img src="images/360.svg" width="30px"/>
+          <div class="quote">
+            <p class="quoteText"><i>"Unfortunately, no one can be told what the Matrix is. You have to see it for yourself." - Lucky Palmer</i></p>
           </div>
-          <p class="featureText">Get the full immersive 360° experience.</p>
-        </div>
-        <div style="display: flex; flex-direction: row; margin: 0px;">
-          <div style="margin-right: 10px; margin-left: 0px;">
-            <img src="images/env.svg" width="30px"/>
+          <p class="bodyText">Step into the rabbit hole. Experience an alternate universe. Question what is real at <b>VR Park.</b></p>
+          <div style="display: flex; flex-direction: row; margin: 0px;">
+            <div style="margin-right: 10px; margin-left: 0px;">
+              <img src="images/env.svg" width="30px"/>
+            </div>
+            <a href="./activities.html#WORLDS" class="featureText">Explore our out-of-this-world environments.</a>
           </div>
-          <p class="featureText">Explore our out-of-this-world environments.</p>
-        </div>
-        <div style="display: flex; flex-direction: row; margin: 0px;">
-          <div style="margin-right: 10px; margin-left: 0px;">
-            <img src="images/interact.svg" width="30px"/>
+          <div style="display: flex; flex-direction: row; margin: 0px;">
+            <div style="margin-right: 10px; margin-left: 0px;">
+              <img src="images/360.svg" width="30px"/>
+            </div>
+            <a href="./activities.html#WARZONE" class="featureText">Get the full immersive 360° experience.</a>
           </div>
-          <p class="featureText">Interact and become a part of the story.</p>
-        </div>
-        <div style="display: flex; flex-direction: row; margin: 0px;">
-          <div style="margin-right: 10px; margin-left: 0px;">
-            <img src="images/pvp.svg" width="30px"/>
+          <div style="display: flex; flex-direction: row; margin: 0px;">
+            <div style="margin-right: 10px; margin-left: 0px;">
+              <img src="images/interact.svg" width="30px"/>
+            </div>
+            <a href="./activities.html#INTERACT" class="featureText">Interact and become a part of the story.</a>
           </div>
-          <p class="featureText">Play with or against other players.</p>
-        </div>
-        <div style="display: flex; flex-direction: row; margin: 0px;">
-          <div style="margin-right: 10px; margin-left: 0px;">
-            <img src="images/medal.svg" width="30px"/>
+          <div style="display: flex; flex-direction: row; margin: 0px;">
+            <div style="margin-right: 10px; margin-left: 0px;">
+              <img src="images/pvp.svg" width="30px"/>
+            </div>
+            <a href="./activities.html#VERSUS" class="featureText">Play with or against other players.</a>
           </div>
-          <p class="featureText">Compete in our weekly tournaments.</p>
+          <div style="display: flex; flex-direction: row; margin: 0px;">
+            <div style="margin-right: 10px; margin-left: 0px;">
+              <img src="images/medal.svg" width="30px"/>
+            </div>
+            <a href="./activities.html#TOURNAMENT" class="featureText">Compete in our weekly tournaments.</a>
+          </div>
+          
         </div>
-        
       </div>
     </section>
   </main>
