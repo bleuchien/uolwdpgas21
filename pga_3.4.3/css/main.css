@@ -56,6 +56,12 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 155px;
+  height: 63px;
 }
 
 .navList {
