@@ -80,18 +80,9 @@ header {
   cursor: pointer;
   color: #fff;
 }
-<<<<<<< HEAD
 
-.navList li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.navList li::after {
-=======
 .navList li a::after {
   text-decoration: none;
->>>>>>> hogart
   content: '';
   display: flex;
   width: 100%;
@@ -102,6 +93,7 @@ header {
 	-webkit-transform: scale(0,1);
 	transform: scale(0,1);
 }
+
 .navList li a:hover::after {
   text-decoration: none;
   opacity: 1;
@@ -148,4 +140,12 @@ header {
 
 .mapBox ul {
   padding-bottom: 2em;
+}
+
+.ULred {
+  border-bottom: 1px solid red;
+}
+
+.ULblue {
+  border-bottom: 1px solid blue;
 }
