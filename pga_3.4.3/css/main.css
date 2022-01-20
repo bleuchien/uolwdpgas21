@@ -1,3 +1,4 @@
+/* Full page space made available */
 html, body {
   height: 100%;
   width: 100%;
@@ -5,6 +6,7 @@ html, body {
   margin: 0px;
 }
 
+/* Navigation Bar styling and positioning */
 nav {
   top: 0;
   border-radius: 10px;
@@ -22,6 +24,7 @@ nav {
   align-items: center;
 }
 
+/* Background image styling and position*/
 .bgImg {
   object-fit: cover;
   width: 100vw;
@@ -31,15 +34,7 @@ nav {
   left: 0;
 }
 
-/* video {
-  object-fit: cover;
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 100vh;
-  left: 0;
-} */
-
+/* Header container holding the nav bar */
 header {
   position: relative;
   height: 100px;
@@ -51,6 +46,7 @@ header {
   align-items: center;
 }
 
+/* Logo positioning */
 .logo {
   width: 15%;
   display: flex;
@@ -58,11 +54,13 @@ header {
   align-items: center;
 }
 
+/* Logo size */
 .logo img {
   width: 155px;
   height: 63px;
 }
 
+/* Navigation list positioning */
 .navList {
   width: 50%;
   list-style-type: none;
@@ -72,6 +70,7 @@ header {
   align-items: center;
 }
 
+/* Navigation list styling */
 .navList li a {
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -80,6 +79,7 @@ header {
   color: #fff;
 }
 
+/* Navigation list animation */
 .navList li a::after {
   text-decoration: none;
   content: '';
@@ -93,6 +93,7 @@ header {
 	transform: scale(0,1);
 }
 
+/* Navigation list animation on hover */
 .navList li a:hover::after {
   text-decoration: none;
   opacity: 1;
@@ -100,40 +101,48 @@ header {
 	transform: scale(1);
 }
 
+/* Basket button positioning*/
 .basketButton {
   width: 15%;
 }
 
+/* Basket button styling */
 .basketImg {
   cursor: pointer;
   width: 30px;
 }
 
+/* Basket button on hover animation */
 .basketImg:hover {
   cursor: pointer;
   width: 33px;
 }
-
+/* Red underline */
 .ULred {
   border-bottom: 1px solid red;
 }
 
+/* Blue underline */
 .ULblue {
   border-bottom: 1px solid blue;
 }
 
+/* Red text */
 .redish {
   color: red;
 }
 
+/* Green text */
 .greenish {
   color: #3ddc84;
 }
 
+/* Blue text */
 .blueish {
   color: blue;
 }
 
+/* Shared Card / Text Box styling */
 .textBox {
   border-radius: 10px;
   background: rgba(30, 30, 30, 0.5);
