@@ -1,3 +1,4 @@
+/* Background image styling */
 body {
   background-image: url('../images/packages-bg.jpg');
   background-position: center;
@@ -6,11 +7,35 @@ body {
   background-size: cover;
 }
 
+/* Main styling */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+  height: calc(100% - 100px);
+  min-height: 650px;
+}
+
+/* Extended Card / text box styling */
 .textBox {
   width: 300px;
   min-height: 387px;
 }
 
+.textBox div {
+  margin: 10px;
+}
+
+.textBox div div h1 {
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Buy button styling */
 .buyButton {
   width: 100%;
   height: 50px;
@@ -23,16 +48,14 @@ body {
   margin-bottom: 15px;
 }
 
-.textBox div {
-  margin: 10px;
-}
-
+/* Price text styling */
 .priceText {
   font-family:'Times New Roman', Times, serif;
   color: #3ddc84;
   font-size: 2.5em;
 }
 
+/* Container used to keep the 3 package cards centered in the screen in a 960px wide div */
 .packageContainer {
   display: flex;
   flex-direction: row;
@@ -41,62 +64,7 @@ body {
   align-items: center;
 }
 
-.quoteText {
-  font-size: 1.3em;
-  font-family:'Times New Roman', Times, serif;
-  color: #fff;
-  margin: 0px;
-}
-
-.textBox div div h1 {
-  font-size: 1.8em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 0px;
-  height: calc(100% - 100px);
-  min-height: 650px;
-}
-
-.quote {
-  padding-left: 10px;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.featureText {
-  text-decoration: none;
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-  cursor: pointer;
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.featureText:hover {
-  text-decoration: none;
-  font-size: 1em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255,255,255,0.7);
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
+/* Main body text used on cards styling */
 .bodyText {
   font-size: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
