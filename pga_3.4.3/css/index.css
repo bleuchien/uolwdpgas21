@@ -1,3 +1,4 @@
+/* Background image styling */
 body {
   background-image: url('../images/home-bg.png');
   background-position: center;
@@ -6,6 +7,20 @@ body {
   background-size: cover;
 }
 
+/* Main styling */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 0px;
+  height: calc(100% - 100px);
+  width: 100%;
+  min-height: 650px;
+}
+
+/* Extended text box / Card styling */
 .textBox {
   width: 423px;
 }
@@ -14,6 +29,7 @@ body {
   margin: 10px;
 }
 
+/* Italics quote styling */
 .quoteText {
   font-size: 1.3em;
   font-family:'Times New Roman', Times, serif;
@@ -27,18 +43,7 @@ body {
   color: #fff;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-top: 0px;
-  height: calc(100% - 100px);
-  width: 100%;
-  min-height: 650px;
-}
-
+/* Container used to narrow the card into a centered div 960px wide and then sending it to the right of the div */
 .pageContainer {
   width: 960px;
   display: flex;
@@ -47,12 +52,14 @@ main {
   align-items: center;
 }
 
+/* Div for indenting the quote */
 .quote {
   padding-left: 10px;
   margin-top: 0px;
   padding-top: 0px;
 }
 
+/* Feature text styling */
 .featureText {
   text-decoration: none;
   font-size: 1em;
@@ -66,6 +73,7 @@ main {
   margin-inline-end: 0px;
 }
 
+/* Feature text styling on hover */
 .featureText:hover {
   text-decoration: none;
   font-size: 1em;
@@ -79,6 +87,7 @@ main {
   margin-inline-end: 0px;
 }
 
+/* For the "Step into the rabbit hole" text styling */
 .bodyText {
   font-size: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
