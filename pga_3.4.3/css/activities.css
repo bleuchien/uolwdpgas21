@@ -1,3 +1,4 @@
+/* Setting and styling the page background */
 body {
   background-image: url('../images/activities-bg.jpg');
   background-position: center;
@@ -6,28 +7,7 @@ body {
   background-size: cover;
 }
 
-.textBox {
-  width: 960px;
-  margin-bottom: 100px;
-}
-
-.textBox div {
-  margin: 10px;
-}
-
-.quoteText {
-  font-size: 1.3em;
-  font-family:'Times New Roman', Times, serif;
-  color: #fff;
-  margin: 0px;
-}
-
-.textBox div div h1 {
-  font-size: 1.8em;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-}
-
+/* Main tag styling */
 main {
   display: flex;
   flex-direction: column;
@@ -38,12 +18,25 @@ main {
   height: 100%;
 }
 
-.quote {
-  padding-left: 10px;
-  margin-top: 0px;
-  padding-top: 0px;
+/* Text Box / Card extended styling */
+.textBox {
+  width: 960px;
+  margin-bottom: 100px;
 }
 
+/* Text Box / Card extended styling - inner div */
+.textBox div {
+  margin: 10px;
+}
+
+/* Text Box / Card extended styling - inner inner div heading*/
+.textBox div div h1 {
+  font-size: 1.8em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+/* Text - description/features of the activities */
 .featureText {
   font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
@@ -51,12 +44,14 @@ main {
   margin-bottom: 50px;
 }
 
+/* Larger body text */
 .bodyText {
   font-size: 1.3em;
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
 
+/* Image styling for the content images used */
 .bodyImg {
   width: 100%;
   height: auto;
