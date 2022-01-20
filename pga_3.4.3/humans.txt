@@ -3,13 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    T6G8
 
 # THANKS
 
-    <name>
+    To Morpheus giving Palmer Lucky something
+    memorable to say.
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    Apache Server Configs, jQuery, Modernizr, Normalize.css
+    CSS3, HTML5, SVG
+    Free Adobe Stock Photos
+    Atom
