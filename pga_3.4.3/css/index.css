@@ -34,8 +34,9 @@ main {
   align-items: center;
   position: relative;
   margin-top: 0px;
-  height: 100%;
+  height: calc(100% - 100px);
   width: 100%;
+  min-height: 650px;
 }
 
 .pageContainer {

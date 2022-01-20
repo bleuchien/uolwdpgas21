@@ -61,7 +61,8 @@ main {
   align-items: center;
   position: relative;
   margin-top: 0px;
-  height: 90%;
+  height: calc(100% - 100px);
+  min-height: 650px;
 }
 
 .quote {
