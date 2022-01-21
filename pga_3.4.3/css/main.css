@@ -1,0 +1,199 @@
+/* Full page space made available */
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Navigation Bar styling and positioning */
+nav {
+  top: 0;
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+  position: relative;
+  margin: 10px 20px 0px 20px;
+  width: 100%;
+  min-width: 960px;
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Background image styling and position*/
+.bgImg {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Header container holding the nav bar */
+header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo positioning */
+.logo {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Logo size */
+.logo img {
+  width: 155px;
+  height: 63px;
+}
+
+/* Navigation list positioning */
+.navList {
+  width: 50%;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation list styling */
+.navList li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #fff;
+}
+
+/* Navigation list animation */
+.navList li a::after {
+  text-decoration: none;
+  content: '';
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid white;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+/* Navigation list animation on hover */
+.navList li a:hover::after {
+  text-decoration: none;
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Basket button positioning*/
+.basketButton {
+  width: 15%;
+}
+
+/* Basket button styling */
+.basketImg {
+  cursor: pointer;
+  width: 30px;
+}
+
+/* Basket button on hover animation */
+.basketImg:hover {
+  cursor: pointer;
+  width: 33px;
+}
+/* Red underline */
+.ULred {
+  border-bottom: 1px solid red;
+}
+
+/* Blue underline */
+.ULblue {
+  border-bottom: 1px solid blue;
+}
+
+/* Black underline */
+.ULwhite {
+  border-bottom: 1px solid white;
+}
+/* Red text */
+.redish {
+  color: red;
+}
+
+/* Green text */
+.greenish {
+  color: #3ddc84;
+}
+
+/* Blue text */
+.blueish {
+  color: blue;
+}
+
+/* Shared Card / Text Box styling */
+.textBox {
+  border-radius: 10px;
+  background: rgba(30, 30, 30, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+}
+
+.textBox div.base {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.textBox div.block {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+
+.textBox div.icon {
+  margin-right: 10px;
+  margin-left: 0px;
+}
+
+.textBox div.blockhead {
+  justify-content: space-between;
+}
+
+.symbol {
+  width: 30px;
+}
+
+.pill {
+  width: 100px;
+}
+
+/* Footer style */
+footer {
+  margin: auto auto 0em 0em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  color: rgba(255,255,255,0.3);
+  background-color: rgba(30, 30, 30, 0.3);
+  width: calc(100% - 20px);
+  height: 30px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    T6G8
+
+# THANKS
+
+    To Morpheus giving Palmer Lucky something
+    memorable to say.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, SVG
+    Free Adobe Stock Photos
+    Atom
